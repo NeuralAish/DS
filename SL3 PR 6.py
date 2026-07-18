@@ -7,7 +7,7 @@ data = load_iris()
 X = data.data
 y = data.target
 
-#
+# Train Model
 model = GaussianNB()
 model.fit(X, y)
 
